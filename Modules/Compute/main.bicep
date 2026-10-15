@@ -5,7 +5,9 @@ param vm2Name string = 'vm-02'
 param vmSize string = 'Standard_B2s'
 param admin1Username string = 'azureuser'
 param admin2Username string = 'azureuser'
+@secure()
 param admin1Password string 
+@secure()
 param admin2Password string 
 param nic1Name string = 'nic-vm-01'
 param nic2Name string = 'nic-vm-02'
