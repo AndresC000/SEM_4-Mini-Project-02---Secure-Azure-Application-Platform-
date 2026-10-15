@@ -131,5 +131,5 @@ resource nsgmtgm 'Microsoft.Network/networkSecurityGroups@2025-09-01' = {
 }
 
 output PublicIPId string = PublicIP.id
-
 output appGatewaySubnetId string ='${virtualNetwork.id}/subnets/${appGWname}'
+output webSubId string ='${virtualNetwork.id}/subnets/${webname}'

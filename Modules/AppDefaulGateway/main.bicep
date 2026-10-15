@@ -2,8 +2,6 @@ param ApplicationGatewayName string= 'appgateway'
 param location string= 'eastus'
 param PublicIPId string 
 param appGatewaySubnetId string 
-param nic1Id string
-param nic2Id string
 
 resource applicationGateway 'Microsoft.Network/applicationGateways@2023-02-01' = {
   name: ApplicationGatewayName

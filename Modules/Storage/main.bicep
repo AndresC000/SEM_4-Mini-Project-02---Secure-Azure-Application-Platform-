@@ -1,7 +1,7 @@
 
 param location string = 'eastus'
 param storageAccountName string = 'stsecureapp'
-param keyvaultname string 
+param keyvaultname string= 'keyvalue1'
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2026-04-01' = {
   name: storageAccountName
