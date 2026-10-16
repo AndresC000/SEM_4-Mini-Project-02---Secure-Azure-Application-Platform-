@@ -20,7 +20,7 @@ La arquitectura sigue buenas prácticas de Azure mediante la segmentación de la
 
 # Arquitectura de la Solución
 
-![Arquitectura]("Designer Mini-Proyect-02-SAAP.png")
+![Arquitectura]("./Architecture/DesignerMini-Proyect-02-SAAP.png")
 
 ---
 
