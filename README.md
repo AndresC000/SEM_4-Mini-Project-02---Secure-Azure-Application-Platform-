@@ -17,13 +17,6 @@ La solución incluye:
 La arquitectura sigue buenas prácticas de Azure mediante la segmentación de la red, la centralización del tráfico de entrada y el despliegue modular de la infraestructura.
 
 ---
-
-# Arquitectura de la Solución
-
-![Arquitectura]("./Architecture/DesignerMini-Proyect-02-SAAP.png")
-
----
-
 # Componentes de la Arquitectura
 
 ## Grupo de Recursos
