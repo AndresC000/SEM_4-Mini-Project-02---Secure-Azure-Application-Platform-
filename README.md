@@ -176,7 +176,7 @@ Protege la MgmtSubnet.
 Permite acceso administrativo.
 
 ---
-
+´´´bash
 # Flujo de Tráfico
 
 Internet
@@ -190,7 +190,7 @@ Application Gateway
  ┌──┴────────┐
  ▼           ▼
 VM-Web-01  VM-Web-02
-
+´´´
 Proceso:
 
 1. El usuario accede mediante la IP pública.
