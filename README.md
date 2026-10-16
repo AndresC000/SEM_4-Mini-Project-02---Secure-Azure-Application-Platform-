@@ -20,7 +20,7 @@ La arquitectura sigue buenas prácticas de Azure mediante la segmentación de la
 
 # Arquitectura de la Solución
 
-![Arquitectura](./Architecture/secure-azure-platform.png)
+![Arquitectura]("C:\Users\AndresBernardoChacón\Downloads\architecture.png")
 
 ---
 
