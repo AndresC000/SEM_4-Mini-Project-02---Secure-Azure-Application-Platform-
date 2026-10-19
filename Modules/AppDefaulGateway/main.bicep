@@ -1,5 +1,5 @@
 param ApplicationGatewayName string= 'appgateway'
-param location string= 'eastus'
+param location string= 'eastus2'
 param PublicIPId string 
 param appGatewaySubnetId string 
 

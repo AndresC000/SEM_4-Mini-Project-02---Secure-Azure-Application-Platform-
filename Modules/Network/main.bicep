@@ -1,5 +1,5 @@
 
-param location string = 'eastus'
+param location string = 'eastus2'
 
 param pIPname string = 'Public-IP'
 

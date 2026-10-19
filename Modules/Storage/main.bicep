@@ -1,5 +1,5 @@
 
-param location string = 'eastus'
+param location string = 'eastus2'
 param storageAccountName string = 'standres001secureapp'
 param keyvaultname string= 'keyvalue1'
 
