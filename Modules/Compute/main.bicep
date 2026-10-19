@@ -2,7 +2,7 @@ param location string = 'eastus2'
 param subnetId string 
 param vm1Name string = 'vm-01'
 param vm2Name string = 'vm-02'
-param vmSize string = 'Standard_B1s'
+param vmSize string = 'Standard_D2as_v4'
 param admin1Username string = 'azureuser'
 param admin2Username string = 'azureuser'
 @secure()
