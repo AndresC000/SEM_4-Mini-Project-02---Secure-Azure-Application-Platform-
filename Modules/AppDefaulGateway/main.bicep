@@ -3,7 +3,7 @@ param location string= 'eastus2'
 param PublicIPId string 
 param appGatewaySubnetId string 
 
-resource applicationGateway 'Microsoft.Network/applicationGateways@2025-07-01' = {
+resource applicationGateway 'Microsoft.Network/applicationGateways@2023-09-01' = {
   name: ApplicationGatewayName
   location: location
   sku: {

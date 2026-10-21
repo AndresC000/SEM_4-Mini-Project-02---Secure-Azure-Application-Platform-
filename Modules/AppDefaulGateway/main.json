@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.48.1.52935",
-      "templateHash": "18307187651028672827"
+      "templateHash": "8266349009047381527"
     }
   },
   "parameters": {
@@ -27,7 +27,7 @@
   "resources": [
     {
       "type": "Microsoft.Network/applicationGateways",
-      "apiVersion": "2025-07-01",
+      "apiVersion": "2023-09-01",
       "name": "[parameters('ApplicationGatewayName')]",
       "location": "[parameters('location')]",
       "sku": {
