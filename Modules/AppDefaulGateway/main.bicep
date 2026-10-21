@@ -6,6 +6,11 @@ param appGatewaySubnetId string
 resource applicationGateway 'Microsoft.Network/applicationGateways@2023-02-01' = {
   name: ApplicationGatewayName
   location: location
+  sku: {
+    name: 'Standard_v2'
+    tier: 'Standard_v2'
+    capacity: 1
+  }
   properties: {
    backendAddressPools: [
      {
