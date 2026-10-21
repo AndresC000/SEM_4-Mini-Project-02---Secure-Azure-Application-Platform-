@@ -8,6 +8,7 @@ param location string = 'eastus2'
   location: location
   properties: {
     tenantId: tenant().tenantId
+    accessPolicies: []
     sku: {
       family: 'A'
       name: 'standard'
