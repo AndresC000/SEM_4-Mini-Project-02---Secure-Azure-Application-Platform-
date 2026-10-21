@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.48.1.52935",
-      "templateHash": "8266349009047381527"
+      "templateHash": "14477496186490164492"
     }
   },
   "parameters": {
@@ -38,7 +38,10 @@
       "properties": {
         "backendAddressPools": [
           {
-            "name": "backendPool1"
+            "name": "backendPool1",
+            "properties": {
+              "backendAddresses": []
+            }
           }
         ],
         "backendHttpSettingsCollection": [
