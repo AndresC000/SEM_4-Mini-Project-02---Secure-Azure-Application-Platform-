@@ -1,5 +1,5 @@
 
-param keyvaultname string = 'keyvault01'
+param keyvaultname string = 'kv-andres-secureapp01'
 param location string = 'eastus2'
 
 
